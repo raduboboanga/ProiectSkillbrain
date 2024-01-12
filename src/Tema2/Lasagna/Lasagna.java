@@ -10,6 +10,7 @@ public class Lasagna {
     // Task 2: Calculate the remaining oven time in minutes
     public int remainingMinutesInOven(int minuteInCuptor) {
         return Math.max(0, expectedMinutesInOven() - minuteInCuptor);
+       // reutrn minuteInCuptor >= expectedMinutesInOven() ? 0 : expectedMinutesInOven() - minuteInCuptor
     }
 
     // Task 3: Calculate the preparation time in minutes
